@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Main {
+public class ReadabilityScoreType1 {
     public static void main(String[] args) {
         File file = new File(args[0]);
         StringBuilder stringBuilder = new StringBuilder("");
